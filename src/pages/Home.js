@@ -7,6 +7,7 @@ import WorkoutForm from '../components/WorkoutForm';
 
 
 const Home = () => {
+
     const {workouts, dispatch} = useWorkoutContext()
 
     useEffect(()=>{
