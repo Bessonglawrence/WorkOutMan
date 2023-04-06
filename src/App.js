@@ -2,6 +2,8 @@
 
 //Pages and components
 import Home from './pages/Home';
+import LogIn from './pages/LogIn';
+import SignUp from './pages/SignUp';
 import Navbar from './components/Navbar';
 
 //Packages
@@ -17,6 +19,14 @@ function App() {
             <Route 
               path='/' 
               element={<Home />} 
+            />
+            <Route 
+              path='/signup' 
+              element={<SignUp />} 
+            />
+            <Route 
+              path='/login' 
+              element={<LogIn />} 
             />
           </Routes>
         </div>
